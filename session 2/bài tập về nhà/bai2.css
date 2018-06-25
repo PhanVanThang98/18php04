@@ -1,0 +1,39 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 100px;
+}
+header{
+	background: yellow;
+	height: 100px;
+}
+section .left{
+	background: yellow;
+	width: 19%;
+	margin: 5px 5px 5px 0px;
+	height: 500px;
+	float: left;
+
+}
+section .main{
+	background: yellow;
+	width: 60%;
+	margin: 5px 0px;
+	height: 500px;
+	float: left;
+
+}
+section .right{
+	background: yellow;
+	width: 20%;
+	margin: 5px 0px 0px 5px;
+	height: 500px;
+	float: left;
+
+}
+footer{
+	background: yellow;
+	height: 100px;
+	clear: left;
+}

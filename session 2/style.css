@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background: green;
+	height: 100px;
+}
+#content .left{
+	background: red;
+	width: 30%;
+	float: left;
+}
+#content .right{
+	background: violet;
+	width: 70%;
+
+}
