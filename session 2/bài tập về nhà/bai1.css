@@ -18,7 +18,6 @@ header{
 section {
 	background: #fff;
 	width: 60%;
-	height: 509px;
 	margin: 0 auto;
 	color: #fff;
 	font-size: 25px;
@@ -55,10 +54,14 @@ section .main_twin_right{
 	margin-left: 4px;
 	line-height: 200px;
 }
+section .rounders{
+	clear: both;
+}
 footer{
 	background: blue;
 	height: 100px;
 	line-height: 100px;
 	color: #fff;
 	font-size: 25px;
+	margin-top: 3px;
 }

@@ -14,7 +14,6 @@ section .left{
 	margin: 5px 5px 5px 0px;
 	height: 500px;
 	float: left;
-
 }
 section .main{
 	background: yellow;
@@ -22,7 +21,6 @@ section .main{
 	margin: 5px 0px;
 	height: 500px;
 	float: left;
-
 }
 section .right{
 	background: yellow;
@@ -30,7 +28,6 @@ section .right{
 	margin: 5px 0px 0px 5px;
 	height: 500px;
 	float: left;
-
 }
 footer{
 	background: yellow;
