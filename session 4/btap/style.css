@@ -6,8 +6,20 @@ body{
 }
 #menu_top{
 	background: #141414;
-	height: 40px;	
-
+	height: 40px;
+}
+@font-face{
+	font-family: myfont;
+	src: url('aristonnormal.ttf');	
+}
+header{
+	background: lightblue;
+	font-family: myfont;
+	font-size: 40px;
+	color: red;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
 }
 #banner{
 	width: 1000px;
@@ -66,7 +78,7 @@ body{
 #footer{
 	background: #000;
 	width: 1000px;
-	height: 100px;
+	height: 70px;
 	clear: left;
 }
 #menu_top ul{
@@ -88,9 +100,6 @@ body{
 }
 #menu_top ul li a.active{
 	background: #1949b5;
-}
-#search{
-	line-height: 40px;
 }
 #banner img{
 	width: 1000px;
@@ -120,6 +129,9 @@ body{
 #main{
 	margin-top: 10px;
 }
+#search{
+	line-height: 40px;
+}
 #main #right .menu_right ul{
 	margin: -15px 0px 0px;
 	padding: 0px;
@@ -130,7 +142,7 @@ body{
 }
 #main #right .menu_right ul li img{
 	float: left;
-	width: 80px;
+	width: 120px;
 	height: 80px;
 }
 #main #right .menu_right ul li a{
@@ -153,6 +165,10 @@ body{
 	line-height: 40px;
 	color: #fff;
 	text-indent: 35px;
+}
+#main #right .menu_right img{
+	width: 300px;
+	height: 300px;
 }
 #footer{
 	margin: 0px;
