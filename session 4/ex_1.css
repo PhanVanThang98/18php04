@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	width: 70%;
+	border: 2px solid;
+	margin: 20px auto;
+}
+@font-face{
+	font-family: myfont;
+	src: url('aristonnormal.ttf');
+}
+#main .left{
+	width: 60%;
+	float: left;
+	border-right: 2px solid;
+}
+#main .right{
+	width: 39%;
+	float: left;
+}
+p{
+	text-align: justify;
+	text-indent: 20px;
+}
+.gthieu{
+	font-family: myfont;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-shadow: 4px 6px 8px green;
+	border-bottom: 2px solid;
+	text-align: center;
+}
+#main .right ul {
+	margin-left: 50px;
+}
+#main .right ul li a{
+	text-decoration: none;
+	color: lightblue;
+}
+#main .right ul li a:hover{
+	color: orange;
+}
+

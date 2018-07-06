@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: myfont;
+	src: url('aristonnormal.ttf');
+}
+body{
+	margin: 0 auto;
+	width: 1000px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+header{
+	background: blue;
+	height: 100px;
+	font-weight: bold;
+}
+section{
+	background: red;
+	height: 200px;
+	font-family: myfont;
+}
+footer{
+	background: violet;
+	height: 100px;
+}
