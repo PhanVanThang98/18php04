@@ -1,0 +1,19 @@
+table,tr td{
+	border: 2px solid black;
+	margin: 0 auto;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 20px;
+}
+td{
+	width: 150px;
+	height: 50px;
+}
+.dai{
+	width: 300px;
+}
+thead{
+	background: aqua;
+}
