@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>example 1</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="learn HTML5, CSS3, PHP">
+	<meta name="keywords" content="learn HTML5, CSS3, PHP">
+	<meta name="viewport" content="width=device.width, initial-scale=1.0">
+	<link rel="stylesheet icon" href="icon.jpg">
+	<link rel="stylesheet" type="text/css" href="ex1.css">
+	<script type="text/javascript" src="ex1.js"></script>
+</head>
+<body>
+	 <!--javascript có thể đổi nội dung-->
+	<p id="hello" style="color: red">hello</p>
+	<a href="#" onclick="document.getElementById('hello').innerHTML = 'hello php04' ">change content</a>
+	<!--javascript có thể thuộc tính 1 đối tương HTML-->
+	<img src="hinh.jpg" alt="#" id="image">
+	<a href="#" onclick="document.getElementById('image').src = 'nhapho.jpg' ">change content</a>
+	<!--javascript có thể style một đối tượng HTML-->
+	<p id="demoo">text hello</p>
+	<a href="#" onclick="document.getElementById('demoo').style.color = 'blue' ">change style</a>
+	<!--javascript có thể ẩn/hiện đối tượng HTML-->
+	<p id="demo">text hello anhien</p>
+	<a href="#" onclick="document.getElementById('demo').style.display = 'none' ">hide</a>
+	<a href="#" onclick="document.getElementById('demo').style.display = 'block' ">show</a>
+</body>
+</html>

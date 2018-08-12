@@ -1,0 +1,21 @@
+
+ul li{
+	float: left;
+	list-style-type: none;
+	border: 2px solid blue;
+	
+}
+ul li a{
+	text-decoration: none;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	padding: 10px 0; 
+	border: 2px solid white;
+	font-weight: bold;
+	display: block;
+	width: 175px;
+}
+.ac a{
+	color: yellow;
+}

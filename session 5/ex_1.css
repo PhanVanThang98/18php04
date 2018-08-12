@@ -1,0 +1,40 @@
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: green;
+
+}
+a:visited{
+	color: yellow;
+}
+a:hover{
+	color: violet;
+}
+#menu{
+	border: 2px solid black;
+	width: 300px;
+	height: 200px;
+	box-shadow: 5px 0 8px 2px gray;
+}
+#menu ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+#menu ul li{
+	width: 200px;
+	margin-bottom: 0.5em;
+	border: 2px solid blue;
+}
+#menu ul li a{
+	display: block;
+	padding: 0.5em 0 0.5em 1.5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
+#menu ul li.a{
+	background-color: silver;
+}
