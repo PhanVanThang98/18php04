@@ -3,8 +3,8 @@ function validateForm() {
 	var date = document.getElementById('date').value;
 	var phone = document.getElementById('phone').value;
 	var email = document.getElementById('email').value;
-	var noid = document.getElementById('noid').value;
-	var tde = document.getElementById('tde').value;
+	var content = document.getElementById('content').value;
+	var title = document.getElementById('title').value;
 	var male = document.getElementById('male').checked;
 	var female = document.getElementById('female').checked;
 	var other = document.getElementById('other').checked;
@@ -33,17 +33,17 @@ function validateForm() {
 	}else{
 		document.getElementById('temail').innerHTML = '';
 	}
-	if(tde == ""){
-		document.getElementById('td').innerHTML = 'vui lòng nhập tiêu đề';
+	if(title == ""){
+		document.getElementById('ttitle').innerHTML = 'vui lòng nhập tiêu đề';
 		checked = false;
 	}else{
-		document.getElementById('td').innerHTML = '';
+		document.getElementById('ttitle').innerHTML = '';
 	}
-	if(noid == ""){
-			document.getElementById('nd').innerHTML = 'vui lòng nhập tiêu đề';
+	if(content == ""){
+			document.getElementById('tcontent').innerHTML = 'vui lòng nhập tiêu đề';
 			checked = false;
 	}else{
-		document.getElementById('nd').innerHTML = '';
+		document.getElementById('tcontent').innerHTML = '';
 	}
 	if (male == false && other == false && female == false) {
 		document.getElementById('gender').innerHTML = 'vui lòng nhập giới tính';
